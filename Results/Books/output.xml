@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.2 on win32)" generated="20220409 11:39:38.383" rpa="false" schemaversion="3">
+<suite id="s1" name="Booksystem" source="C:\Users\SHUBHENDRA SINGH\PycharmProjects\RobotFrameWork--BMS\Tests\Books\FunctionalTestSuite\booksystem.robot">
+<test id="s1-t1" name="index page test case" line="7">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220409 11:39:38.695" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:5000/'.</msg>
+<msg timestamp="20220409 11:39:51.787" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:51.787" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DA7413+2389011]
+	Ordinal0 [0x00D39F61+1941345]
+	Ordinal0 [0x00C2C658+837208]
+	Ordinal0 [0x00C28F28+823080]
+	Ordinal0 [0x00C1E27D+778877]
+	Ordinal0 [0x00C1EE3D+781885]
+	Ordinal0 [0x00C1E48A+779402]
+	Ordinal0 [0x00C1DA86+776838]
+	Ordinal0 [0x00C1C995+772501]
+	Ordinal0 [0x00C1CE6D+773741]
+	Ordinal0 [0x00C2DE5A+843354]
+	Ordinal0 [0x00C849BD+1198525]
+	Ordinal0 [0x00C7414C+1130828]
+	Ordinal0 [0x00C84302+1196802]
+	Ordinal0 [0x00C73F66+1130342]
+	Ordinal0 [0x00C4E546+976198]
+	Ordinal0 [0x00C4F456+980054]
+	GetHandleVerifier [0x00F59632+1727522]
+	GetHandleVerifier [0x0100BA4D+2457661]
+	GetHandleVerifier [0x00E3EB81+569713]
+	GetHandleVerifier [0x00E3DD76+566118]
+	Ordinal0 [0x00D40B2B+1968939]
+	Ordinal0 [0x00D45988+1989000]
+	Ordinal0 [0x00D45A75+1989237]
+	Ordinal0 [0x00D4ECB1+2026673]
+	BaseThreadInitThunk [0x76426739+25]
+	RtlGetFullPathName_UEx [0x770A8E7F+1215]
+	RtlGetFullPathName_UEx [0x770A8E4D+1165]
+</msg>
+<status status="FAIL" starttime="20220409 11:39:38.679" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>${adminname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:pass</arg>
+<arg>${adminpass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/div/form/table/tbody/tr[3]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.787"/>
+</kw>
+<doc>Index Page</doc>
+<tag>admin</tag>
+<status status="FAIL" starttime="20220409 11:39:38.679" endtime="20220409 11:39:51.787">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DA7413+2389011]
+	Ordinal0 [0x00D39F61+1941345]
+	Ordinal0 [0x00C2C658+837208]
+	Ordinal0 [0x00C28F28+823080]
+	Ordinal0 [0x00C1E27D+778877]
+	Ordinal0 [0x00C1EE3D+781885]
+	Ordinal0 [0x00C1E48A+779402]
+	Ordinal0 [0x00C1DA86+776838]
+	Ordinal0 [0x00C1C995+772501]
+	Ordinal0 [0x00C1CE6D+773741]
+	Ordinal0 [0x00C2DE5A+843354]
+	Ordinal0 [0x00C849BD+1198525]
+	Ordinal0 [0x00C7414C+1130828]
+	Ordinal0 [0x00C84302+1196802]
+	Ordinal0 [0x00C73F66+1130342]
+	Ordinal0 [0x00C4E546+976198]
+	Ordinal0 [0x00C4F456+980054]
+	GetHandleVerifier [0x00F59632+1727522]
+	GetHandleVerifier [0x0100BA4D+2457661]
+	GetHandleVerifier [0x00E3EB81+569713]
+	GetHandleVerifier [0x00E3DD76+566118]
+	Ordinal0 [0x00D40B2B+1968939]
+	Ordinal0 [0x00D45988+1989000]
+	Ordinal0 [0x00D45A75+1989237]
+	Ordinal0 [0x00D4ECB1+2026673]
+	BaseThreadInitThunk [0x76426739+25]
+	RtlGetFullPathName_UEx [0x770A8E7F+1215]
+	RtlGetFullPathName_UEx [0x770A8E4D+1165]
+</status>
+</test>
+<test id="s1-t2" name="add page test case" line="21">
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title:Book Management System</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<msg timestamp="20220409 11:39:51.920" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:51.920" level="FAIL">Unable to locate window with title 'Book Management System'.</msg>
+<status status="FAIL" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>${bookname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:author</arg>
+<arg>${author}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:category</arg>
+<arg>${category}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:price</arg>
+<arg>${price}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:publisher</arg>
+<arg>${publisher}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/form/table/tbody/tr[6]/td[2]/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:51.920" endtime="20220409 11:39:51.920"/>
+</kw>
+<doc>Add</doc>
+<tag>admin</tag>
+<status status="FAIL" starttime="20220409 11:39:51.787" endtime="20220409 11:39:51.920">Unable to locate window with title 'Book Management System'.</status>
+</test>
+<test id="s1-t3" name="search test case" line="39">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:51.920" level="INFO">Clicking element 'xpath=//html/body/nav/div/div/ul/li[2]/a'.</msg>
+<msg timestamp="20220409 11:39:52.286" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:52.286" level="FAIL">Element with locator 'xpath=//html/body/nav/div/div/ul/li[2]/a' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:51.920" endtime="20220409 11:39:52.286"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>${bookname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.286" endtime="20220409 11:39:52.286"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.286" endtime="20220409 11:39:52.286"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div[1]/div/form/table/tbody/tr[2]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.286" endtime="20220409 11:39:52.286"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.286" endtime="20220409 11:39:52.286"/>
+</kw>
+<doc>search</doc>
+<tag>admin</tag>
+<status status="FAIL" starttime="20220409 11:39:51.920" endtime="20220409 11:39:52.286">Element with locator 'xpath=//html/body/nav/div/div/ul/li[2]/a' not found.</status>
+</test>
+<test id="s1-t4" name="update test case" line="48">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[5]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:52.302" level="INFO">Clicking element 'xpath=//html/body/nav/div/div/ul/li[5]/a'.</msg>
+<msg timestamp="20220409 11:39:52.419" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:52.419" level="FAIL">Element with locator 'xpath=//html/body/nav/div/div/ul/li[5]/a' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:52.302" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>${bookname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/form/table/tbody/tr[2]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title: Book Management System</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>${bookname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:author</arg>
+<arg>${updauthor_parameter}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:category</arg>
+<arg>${updcategory_parameter}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:price</arg>
+<arg>${updprice_parameter}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:publisher</arg>
+<arg>${updpublisher_parameter}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/form/table/tbody/tr[6]/td[2]/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.419"/>
+</kw>
+<doc>update</doc>
+<tag>admin</tag>
+<status status="FAIL" starttime="20220409 11:39:52.302" endtime="20220409 11:39:52.419">Element with locator 'xpath=//html/body/nav/div/div/ul/li[5]/a' not found.</status>
+</test>
+<test id="s1-t5" name="delete test case" line="70">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[3]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:52.419" level="INFO">Clicking element 'xpath=//html/body/nav/div/div/ul/li[3]/a'.</msg>
+<msg timestamp="20220409 11:39:52.536" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:52.546" level="FAIL">Element with locator 'xpath=//html/body/nav/div/div/ul/li[3]/a' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.546"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>${bookname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.547" endtime="20220409 11:39:52.547"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.547" endtime="20220409 11:39:52.547"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/form/table/tbody/tr[2]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.548" endtime="20220409 11:39:52.548"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.548" endtime="20220409 11:39:52.548"/>
+</kw>
+<doc>Delete</doc>
+<tag>admin</tag>
+<status status="FAIL" starttime="20220409 11:39:52.419" endtime="20220409 11:39:52.549">Element with locator 'xpath=//html/body/nav/div/div/ul/li[3]/a' not found.</status>
+</test>
+<test id="s1-t6" name="logout test case" line="79">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[6]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:52.551" level="INFO">Clicking element 'xpath=//html/body/nav/div/div/ul/li[6]/a'.</msg>
+<msg timestamp="20220409 11:39:52.681" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:52.681" level="FAIL">Element with locator 'xpath=//html/body/nav/div/div/ul/li[6]/a' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:52.551" endtime="20220409 11:39:52.681"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.682" endtime="20220409 11:39:52.682"/>
+</kw>
+<doc>Logout</doc>
+<tag>admin</tag>
+<status status="FAIL" starttime="20220409 11:39:52.550" endtime="20220409 11:39:52.682">Element with locator 'xpath=//html/body/nav/div/div/ul/li[6]/a' not found.</status>
+</test>
+<test id="s1-t7" name="user register test case" line="85">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:52.685" level="INFO">Clicking element 'xpath=//html/body/nav/div/div/ul/li[1]/a'.</msg>
+<msg timestamp="20220409 11:39:52.818" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-7.png"&gt;&lt;img src="selenium-screenshot-7.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:52.818" level="FAIL">Element with locator 'xpath=//html/body/nav/div/div/ul/li[1]/a' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:52.684" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/div/form/table/tbody/tr[4]/td[2]/button/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:address</arg>
+<arg>${useraddress}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${useremail}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:phone</arg>
+<arg>${userphone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:pass</arg>
+<arg>${userpass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.818" endtime="20220409 11:39:52.818"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.834" endtime="20220409 11:39:52.834"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/form/table/tbody/tr[6]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.834" endtime="20220409 11:39:52.834"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.834" endtime="20220409 11:39:52.834"/>
+</kw>
+<doc>user register</doc>
+<tag>user</tag>
+<status status="FAIL" starttime="20220409 11:39:52.684" endtime="20220409 11:39:52.834">Element with locator 'xpath=//html/body/nav/div/div/ul/li[1]/a' not found.</status>
+</test>
+<test id="s1-t8" name="user login test case" line="106">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${useremail}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:52.834" level="INFO">Typing text 'shubhendras65@gmail.com' into text field 'name:email'.</msg>
+<msg timestamp="20220409 11:39:52.968" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-8.png"&gt;&lt;img src="selenium-screenshot-8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:52.968" level="FAIL">Element with locator 'name:email' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:52.834" endtime="20220409 11:39:52.968"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.968" endtime="20220409 11:39:52.968"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:pass</arg>
+<arg>${userpass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.968" endtime="20220409 11:39:52.968"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.968" endtime="20220409 11:39:52.968"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/div/form/table/tbody/tr[3]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.968" endtime="20220409 11:39:52.968"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:52.968" endtime="20220409 11:39:52.968"/>
+</kw>
+<doc>user login</doc>
+<tag>user</tag>
+<status status="FAIL" starttime="20220409 11:39:52.834" endtime="20220409 11:39:52.968">Element with locator 'name:email' not found.</status>
+</test>
+<test id="s1-t9" name="user search test case" line="116">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:52.984" level="INFO">Clicking element 'xpath=//html/body/nav/div/div/ul/li[1]/a'.</msg>
+<msg timestamp="20220409 11:39:53.135" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:53.135" level="FAIL">Element with locator 'xpath=//html/body/nav/div/div/ul/li[1]/a' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:52.984" endtime="20220409 11:39:53.135"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>${usersearch}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:53.135" endtime="20220409 11:39:53.135"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:53.135" endtime="20220409 11:39:53.135"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div[1]/div/form/table/tbody/tr[2]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:53.135" endtime="20220409 11:39:53.135"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:53.135" endtime="20220409 11:39:53.135"/>
+</kw>
+<doc>user search</doc>
+<tag>user</tag>
+<status status="FAIL" starttime="20220409 11:39:52.984" endtime="20220409 11:39:53.135">Element with locator 'xpath=//html/body/nav/div/div/ul/li[1]/a' not found.</status>
+</test>
+<test id="s1-t10" name="user viewall page test case" line="125">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:53.135" level="INFO">Clicking element 'xpath=//html/body/nav/div/div/ul/li[2]/a'.</msg>
+<msg timestamp="20220409 11:39:53.272" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:53.272" level="FAIL">Element with locator 'xpath=//html/body/nav/div/div/ul/li[2]/a' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:53.135" endtime="20220409 11:39:53.273"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:53.274" endtime="20220409 11:39:53.274"/>
+</kw>
+<doc>user viewall</doc>
+<tag>user</tag>
+<status status="FAIL" starttime="20220409 11:39:53.135" endtime="20220409 11:39:53.274">Element with locator 'xpath=//html/body/nav/div/div/ul/li[2]/a' not found.</status>
+</test>
+<test id="s1-t11" name="user logout test case" line="131">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/nav/div/div/ul/li[3]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220409 11:39:53.276" level="INFO">Clicking element 'xpath=//html/body/nav/div/div/ul/li[3]/a'.</msg>
+<msg timestamp="20220409 11:39:53.434" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220409 11:39:53.434" level="FAIL">Element with locator 'xpath=//html/body/nav/div/div/ul/li[3]/a' not found.</msg>
+<status status="FAIL" starttime="20220409 11:39:53.276" endtime="20220409 11:39:53.434"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:53.434" endtime="20220409 11:39:53.434"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220409 11:39:53.434" endtime="20220409 11:39:53.434"/>
+</kw>
+<doc>user logout</doc>
+<tag>user</tag>
+<status status="FAIL" starttime="20220409 11:39:53.275" endtime="20220409 11:39:53.434">Element with locator 'xpath=//html/body/nav/div/div/ul/li[3]/a' not found.</status>
+</test>
+<status status="FAIL" starttime="20220409 11:39:38.383" endtime="20220409 11:39:53.434"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="11" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="6" skip="0">admin</stat>
+<stat pass="0" fail="5" skip="0">user</stat>
+</tag>
+<suite>
+<stat pass="0" fail="11" skip="0" id="s1" name="Booksystem">Booksystem</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
